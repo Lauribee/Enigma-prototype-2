@@ -17,7 +17,10 @@ public class Main {
         int number = 4;
         char letter = numberToLetter( number );
         System.out.printf("Tallet %d bliver til bogstavet %c\n", number, letter);
-
+        int[] cipher = {1,2,5};
+        String plaintext = listOfNumbersToText(cipher);
+        System.out.print("The decrypted text is: ");
+        System.out.println(plaintext);
     }
 
 
